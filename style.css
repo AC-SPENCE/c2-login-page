@@ -1,0 +1,33 @@
+body {
+  background-color: #fff;
+}
+
+#container {
+  display: flex;
+}
+
+.center {
+  text-align: center;
+}
+
+#west {
+  width: 50%;
+  height: 100vh;
+  background-color: grey;
+
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#west img {
+  /* width: 200px; */
+
+}
+
+
+#east {
+  width: 50%;
+  height: 100vh;
+  background: url("https://d3rplhd9p4snt0.cloudfront.net/images/login/bg/bg13.jpg"); */
+}
