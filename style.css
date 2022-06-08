@@ -35,7 +35,17 @@ color: #74708d;
 box-sizing: border-box;
 }
 
-.input-e {
+.hide {
+  display: none;
+}
+
+#error-message {
+  background: red;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.input-e { 
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   border-top-right-radius: 10px;
