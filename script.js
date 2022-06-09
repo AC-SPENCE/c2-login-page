@@ -1,4 +1,4 @@
-const errMessageDiv = document.getElementById("error-message");
+const errMessage = document.getElementById("error-message");
 
 const emailElementInput = document.getElementById("email");
 
@@ -8,19 +8,18 @@ const formElement = document.getElementById("form");
 
 const loginDiv = document.getElementById("login");
 
-loginDiv.addEventListener("submit", showerrMsg);
+formElement.addEventListener("submit", showerrMsg);
 
 function showerrMsg(event){
 event.preventDefault();
 
-If( emailElementInput.value === "" );{
+if( emailElementInput.value === "" ){
 
-    errMessageDiv.classList.remove("hide")
+    errMessage.classList.remove("hide")
 }
 
 }
 
-
-console.log(pwdElementInput);
+console.log(emailElementInput);
 
 console.log("errMsg not working");

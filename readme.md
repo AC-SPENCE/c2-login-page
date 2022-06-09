@@ -22,3 +22,5 @@ Added Login error message in the event that user email and password isn't entere
 Created Script.js file
 
 Completed Commit 3: can't resolve JS to HTML pull/link issue
+Made several edits per Dele's edit suggestions to HTML & JS coding
+Completed Commit 4: resolved baseline submit trigger issue
