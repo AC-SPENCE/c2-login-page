@@ -35,7 +35,18 @@ color: #74708d;
 box-sizing: border-box;
 }
 
-.input-e {
+.hide {
+  display: none;
+}
+
+#error-message {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.input-e { 
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   border-top-right-radius: 10px;
@@ -51,8 +62,7 @@ box-sizing: border-box;
 
 #login-info {
   display: flex;
-  /* border: 2px solid #00B1E0; */
-}
+  }
 
 #remember-trouble {
   display: flex;

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Counseal by Authority Wit - Login</title>
   </head>
@@ -16,12 +17,14 @@
              <img src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" alt=" Counseal Company Logo">
            </div>     
               
-          <div id="form">
+           <div><p id="error-message" class="hide">Incorrect Email and Password</p></div>
+                    
+           <div id="form">
             <form>
-            <div id="input-form-e"><input class="input-e" type="email" id="email" name="email" placeholder="Email"> </div>
+            <div id="input-form-e"><input class="input-e" type="email" id="email" name="email" placeholder="Email"></div>
 
-            <div id="input-form-p" ><input class="input-p" type="password" id="pwd" name="pwd" placeholder="Password"> </div>
-            </form>
+            <div id="input-form-p"><input class="input-p" type="password" id="pwd" name="pwd" placeholder="Password"> </div>
+            
           </div>
 
           <div id="login-info">
@@ -32,16 +35,16 @@
               <div id="trouble"><p><a href="https://app.counseal.com/site/havingTrouble"> (Having Trouble?)</a></p></div>
             </div>
 
-            <div id="login"><input type="button" class=button onclick="alert('Please input login credentials')" value="Login"></div>
+            <div id="login"><input type="submit" class=button value="Login"></div>
           </div>
-        </div>
+          </form>
+        </div>   
       </div>
       
-      <div id="east"> 
-      </div>
+      <div id="east"></div>
    
     </div>
 
 
-
-  </body>
+<script src="script.js"></script>
+</body>
