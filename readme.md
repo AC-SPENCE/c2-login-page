@@ -24,3 +24,8 @@ Created Script.js file
 Completed Commit 3: can't resolve JS to HTML pull/link issue
 Made several edits per Dele's edit suggestions to HTML & JS coding
 Completed Commit 4: resolved baseline submit trigger issue
+Tried to coded input hover message "Please Fill Out This Field" and attempts failed
+Cleaned coding for commiting to GitHub
+Updated readme.md
+I give up!
+Completed Commit4B
